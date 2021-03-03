@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #000;
   font-family: "roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -28,10 +28,12 @@ button {
   letter-spacing: 2px;
   overflow: hidden;
   margin: 10px 0;
+  border-radius: 50px;
 }
 button:focus {
   outline: 0;
 }
+
 .circle {
   position: absolute;
   background-color: #fff;
